@@ -7,6 +7,7 @@
 // @namespace    http://tampermonkey.net/
 // @match        *://*.centurygames.com/*
 // @connect      raw.githubusercontent.com
+// @grant        unsafeWindow
 // @grant        GM_xmlhttpRequest
 // @require      https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2
 // @run-at       document-start
